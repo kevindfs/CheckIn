@@ -40,7 +40,7 @@ namespace CheckIn.Resources.screen
 
         private async void BtnCheckOutAlmuerzo_Click(object sender, EventArgs e)
         {
-            //UPDATE  Registro/-KHqiOHH5J8YlbUHe-3W
+            //UPDATE
             Usuario usuarioTemp = new Usuario();
             usuarioTemp.apellido = "Suarez";
             FirebaseResponse response = await cliente.UpdateAsync("Registro/-KHqiOHH5J8YlbUHe-3W", usuarioTemp);
