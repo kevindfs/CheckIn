@@ -2,12 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<Button  
-    android:id="@+id/MyButton"
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/Hello"
-    />
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/btnCheckIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Check In" />
+    <Button
+        android:id="@+id/btnCheckInAlmuerzo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Check In Almuerzo" />
+    <Button
+        android:id="@+id/btnCheckOutAlmuerzo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out Almuerzo" />
+    <Button
+        android:id="@+id/btnCheckOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out" />
 </LinearLayout>

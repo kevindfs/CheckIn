@@ -26,6 +26,7 @@ namespace CheckIn
 		
 		public static void UpdateIdValues()
 		{
+			global::BranchXamarinSDK.Droid.Resource.String.library_name = global::CheckIn.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -61,7 +62,16 @@ namespace CheckIn
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
+			public const int btnCheckIn = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int btnCheckInAlmuerzo = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int btnCheckOut = 2131034115;
+			
+			// aapt resource value: 0x7f050002
+			public const int btnCheckOutAlmuerzo = 2131034114;
 			
 			static Id()
 			{
@@ -92,11 +102,14 @@ namespace CheckIn
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040002
+			public const int ApplicationName = 2130968578;
+			
 			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			public const int Hello = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int library_name = 2130968576;
 			
 			static String()
 			{
